@@ -103,5 +103,5 @@ def run1(lim_x, lim_t, step, sigma, mass, label=None, log=False, show=True, hat_
 
 def run2(alpha):
     """ To be parallelized. """
-    run1(20, 20, 400, alpha, 1, log=False, show=False, hat_coords=True)
+    run1(20, 20, 1000, alpha, 1, log=False, show=False, hat_coords=True)
 
