@@ -1,6 +1,9 @@
 # Temporary File for Parallelization
 temp.py
 
+# Mac OS
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
