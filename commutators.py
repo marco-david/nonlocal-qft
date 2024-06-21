@@ -38,11 +38,9 @@ def calc(lim_x, lim_t, step, alpha, hat_coords=False):
     xs = np.linspace(-lim_x, lim_x, step)
     ts = np.linspace(-lim_t, lim_t, step)
     
-    xx, tt = np.meshgrid(xs, ts)
-    
     if hat_coords:
-        xx = xx / alpha
-        tt = tt / alpha
+        xs = xs / alpha
+        ts = ts / alpha
     
     # manual parallel processing
     #arguments = [(x, t, alpha) for t in ts for x in xs]
@@ -54,6 +52,8 @@ def calc(lim_x, lim_t, step, alpha, hat_coords=False):
     # vectorization with JAX
     vcomm = jax.vmap(jax.vmap(lambda x, t: comm(x, t, alpha), in_axes=(0, None)), in_axes=(None, 0))
     z = vcomm(xs, ts)
+    
+    xx, tt = np.meshgrid(xs, ts)
     
     return xx, tt, z
 
