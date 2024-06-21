@@ -34,11 +34,15 @@ def comm(x, t, a):
     
     return abs(1/(2 * np.pi**2) * t * I)**2
 
-def calc(lim_x, lim_t, step, alpha):
+def calc(lim_x, lim_t, step, alpha, hat_coords=False):
     xs = np.linspace(-lim_x, lim_x, step)
     ts = np.linspace(-lim_t, lim_t, step)
     
     xx, tt = np.meshgrid(xs, ts)
+    
+    if hat_coords:
+        xx = xx / alpha
+        tt = tt / alpha
     
     # manual parallel processing
     #arguments = [(x, t, alpha) for t in ts for x in xs]
@@ -55,10 +59,17 @@ def calc(lim_x, lim_t, step, alpha):
 
 import matplotlib.pyplot as plt
 
-def plot(xx, tt, z, sigma, mass, label=None, log=False, show=True):
+def plot(xx, tt, z, sigma, mass, label=None, log=False, show=True, hat_coords=False):
     ax = plt.gca()
     ax.axis('equal')
     ax.set_box_aspect(1)
+    
+    alpha = sigma*mass
+    coord_label = "/\sigma"
+    if hat_coords:
+        xx = alpha * xx
+        tt = alpha * tt
+        coord_label = "\cdot m"
     
     # heat_r, gist_heat_r, ...
     cnt = plt.pcolormesh(xx, tt, z, cmap='gist_heat_r', antialiased=False, shading='auto')
@@ -66,10 +77,10 @@ def plot(xx, tt, z, sigma, mass, label=None, log=False, show=True):
     #plt.imshow(z)
     
     plt.colorbar()
-    plt.xlabel(r"Space Coordinate $x/\sigma$")
-    plt.ylabel(r"Time Coordinate $t/\sigma$")
+    plt.xlabel(f"Space Coordinate $x{coord_label}$")
+    plt.ylabel(f"Time Coordinate $t{coord_label}$")
     plt.title("$" + (r"\log" if log else "") + "|\sigma^2 [\phi(t'',0,0,x''), \phi(0,0,0,0)]|^2$, "
-                  + r"$\alpha" + f" = {sigma*mass}$")
+                  + r"$\alpha" + f" = {alpha}$")
     
     if label:
         plt.savefig(FOLDER + label + ("-log" if log else "") + ".png")
@@ -77,18 +88,20 @@ def plot(xx, tt, z, sigma, mass, label=None, log=False, show=True):
     if show:
         plt.show()
     
-def run1(lim_x, lim_t, step, sigma, mass, label=None, log=False, show=True):
+def run1(lim_x, lim_t, step, sigma, mass, label=None, log=False, show=True, hat_coords=False):
     alpha = sigma * mass
     
-    xx, tt, z = calc(lim_x, lim_t, step, alpha)
+    xx, tt, z = calc(lim_x, lim_t, step, alpha, hat_coords=hat_coords)
     
     if not label:
         label = f"numerical-commutator-m{mass}-s{sigma}-l{lim_x}-{lim_t}"
     
-    plot(xx, tt, z**(1/4), sigma, mass, label=label, show=show)
+    plot(xx, tt, z**(1/4), sigma, mass, label=label, show=show, hat_coords=hat_coords)
     
     if log:
         plot(xx, tt, np.log(z), sigma, mass, label=label, log=True, show=show)
 
 def run2(alpha):
-    run1(20, 20, 400, alpha, 1, log=False)
+    """ To be parallelized. """
+    run1(20, 20, 400, alpha, 1, log=False, show=False, hat_coords=True)
+
