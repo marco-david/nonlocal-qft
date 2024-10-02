@@ -14,7 +14,7 @@ NIntegrate[ImPartIntegrand*Exp[-p/\[CapitalLambda]],{p,0,Infinity}]//Quiet
 
 
 (* ::Input::Initialization:: *)
-datadir="mathematica_commutator_data";
+datadir="~/nonlocal-qft/mathematica_commutator_data";
 m=1;
 \[CapitalLambda]=10^6;
 intbndry=5;
@@ -26,7 +26,7 @@ data=ParallelTable[{x,t,Abs[ImPartOfCommutator[\[Sigma],m,x,t,\[CapitalLambda]]]
 flatData000=Flatten[data,1];
 
 
-Export[FileNameJoin[{NotebookDirectory[],datadir,"data000.h5"}],flatData000]
+Export[FileNameJoin[{datadir,"data000.h5"}],flatData000]
 
 
 (*Import[FileNameJoin[{NotebookDirectory[],datadir,"data000.h5"}],"Dataset1"]*)
@@ -45,7 +45,7 @@ data=ParallelTable[{x,t,Abs[ImPartOfCommutator[\[Sigma],m,x,t,\[CapitalLambda]]]
 flatData001=Flatten[data,1];
 
 
-Export[FileNameJoin[{NotebookDirectory[],datadir,"data001.h5"}],flatData001]
+Export[FileNameJoin[{datadir,"data001.h5"}],flatData001]
 
 
 (* ::Input::Initialization:: *)
@@ -61,7 +61,7 @@ data=ParallelTable[{x,t,Abs[ImPartOfCommutator[\[Sigma],m,x,t,\[CapitalLambda]]]
 flatData010=Flatten[data,1];
 
 
-Export[FileNameJoin[{NotebookDirectory[],datadir,"data010.h5"}],flatData010]
+Export[FileNameJoin[{datadir,"data010.h5"}],flatData010]
 
 
 (* ::Input::Initialization:: *)
@@ -77,7 +77,7 @@ data=ParallelTable[{x,t,Abs[ImPartOfCommutator[\[Sigma],m,x,t,\[CapitalLambda]]]
 flatData050=Flatten[data,1];
 
 
-Export[FileNameJoin[{NotebookDirectory[],datadir,"data050.h5"}],flatData050]
+Export[FileNameJoin[{datadir,"data050.h5"}],flatData050]
 
 
 (* ::Input::Initialization:: *)
@@ -101,7 +101,7 @@ data=ParallelTable[{x,t,Abs[ImPartOfCommutator[\[Sigma],m,x,t,\[CapitalLambda]]]
 flatData100=Flatten[data,1];
 
 
-Export[FileNameJoin[{NotebookDirectory[],datadir,"data100.h5"}],flatData100]
+Export[FileNameJoin[{datadir,"data100.h5"}],flatData100]
 
 
 (* ::Input::Initialization:: *)
@@ -118,7 +118,7 @@ data=ParallelTable[{x,t,Abs[ImPartOfCommutator[\[Sigma],m,x,t,\[CapitalLambda]]]
 flatData1000=Flatten[data,1];
 
 
-Export[FileNameJoin[{NotebookDirectory[],datadir,"data1000.h5"}],flatData1000]
+Export[FileNameJoin[{datadir,"data1000.h5"}],flatData1000]
 
 
 (* ::Input::Initialization:: *)
