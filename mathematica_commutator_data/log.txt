@@ -1,0 +1,440 @@
+Mathematica 13.0.1 Kernel for Linux x86 (64-bit)
+Copyright 1988-2022 Wolfram Research, Inc.
+
+In[1]:= 
+In[2]:= In[2]:= 
+In[3]:= 
+In[4]:= 
+In[5]:= In[5]:= In[5]:= 
+In[6]:= 
+In[7]:= 
+In[8]:= 
+In[9]:= 
+In[10]:= In[10]:= In[10]:= 
+In[11]:= In[11]:= In[11]:= 
+In[12]:= 
+In[13]:= 
+In[14]:= 
+In[15]:= 
+In[16]:= 
+In[17]:= From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                     2
+                                                      40. Sqrt[1. + p ]
+         (0. + 0.000403144 I) Sin[(20. + 0. I) p] Sin[-----------------]
+                                                                 2
+                                                            0.5 p
+                                                           E
+         ---------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                     2
+                                                      40. Sqrt[1. + p ]
+         (0. + 0.000403144 I) Sin[(20. + 0. I) p] Sin[-----------------]
+                                                                 2
+                                                            0.5 p
+                                                           E
+         ---------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                     2
+                                                      40. Sqrt[1. + p ]
+         (0. + 0.000403144 I) Sin[(20. + 0. I) p] Sin[-----------------]
+                                                                 2
+                                                            0.5 p
+                                                           E
+         ---------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                     2
+                                                      40. Sqrt[1. + p ]
+         (0. + 0.00070112 I) Sin[(11.5 + 0. I) p] Sin[-----------------]
+                                                                 2
+                                                            0.5 p
+                                                           E
+         ---------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                     2
+                                                      40. Sqrt[1. + p ]
+         (0. + 0.00070112 I) Sin[(11.5 + 0. I) p] Sin[-----------------]
+                                                                 2
+                                                            0.5 p
+                                                           E
+         ---------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                     2
+                                                      40. Sqrt[1. + p ]
+         (0. + 0.00070112 I) Sin[(11.5 + 0. I) p] Sin[-----------------]
+                                                                 2
+                                                            0.5 p
+                                                           E
+         ---------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                    2
+                                                     40. Sqrt[1. + p ]
+         (0. + 0.00230368 I) Sin[(3.5 + 0. I) p] Sin[-----------------]
+                                                                2
+                                                           0.5 p
+                                                          E
+         --------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                    2
+                                                     40. Sqrt[1. + p ]
+         (0. + 0.00230368 I) Sin[(3.5 + 0. I) p] Sin[-----------------]
+                                                                2
+                                                           0.5 p
+                                                          E
+         --------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                    2
+                                                     40. Sqrt[1. + p ]
+         (0. + 0.00230368 I) Sin[(3.5 + 0. I) p] Sin[-----------------]
+                                                                2
+                                                           0.5 p
+                                                          E
+         --------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                    2
+                                                     40. Sqrt[1. + p ]
+         (0. + 0.00179175 I) Sin[(4.5 + 0. I) p] Sin[-----------------]
+                                                                2
+                                                           0.5 p
+                                                          E
+         --------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                    2
+                                                     40. Sqrt[1. + p ]
+         (0. + 0.00179175 I) Sin[(4.5 + 0. I) p] Sin[-----------------]
+                                                                2
+                                                           0.5 p
+                                                          E
+         --------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                    2
+                                                     40. Sqrt[1. + p ]
+         (0. + 0.00179175 I) Sin[(4.5 + 0. I) p] Sin[-----------------]
+                                                                2
+                                                           0.5 p
+                                                          E
+         --------------------------------------------------------------, 
+                                   2
+                              0.5 p              2
+                             E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                      2
+                                                       40. Sqrt[1. + p ]
+         (0. + 0.000645031 I) Sin[(12.5 + 0. I) p] Sin[-----------------]
+                                                                  2
+                                                             0.5 p
+                                                            E
+         ----------------------------------------------------------------, 
+                                    2
+                               0.5 p              2
+                              E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                      2
+                                                       40. Sqrt[1. + p ]
+         (0. + 0.000645031 I) Sin[(12.5 + 0. I) p] Sin[-----------------]
+                                                                  2
+                                                             0.5 p
+                                                            E
+         ----------------------------------------------------------------, 
+                                    2
+                               0.5 p              2
+                              E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+NIntegrate::inumr: 
+                          2
+   The integrand ((-2 I) p  Pi IntegrateChangeVariables[
+                                                                      2
+                                                       40. Sqrt[1. + p ]
+         (0. + 0.000645031 I) Sin[(12.5 + 0. I) p] Sin[-----------------]
+                                                                  2
+                                                             0.5 p
+                                                            E
+         ----------------------------------------------------------------, 
+                                    2
+                               0.5 p              2
+                              E       p Sqrt[1 + p ]
+                          p/1000000
+        Cos[θ], True]) / E          has evaluated to non-numerical values\
+ 
+>   for
+     all sampling points in the region with boundaries {{Infinity, 0.}}.
+From KernelObject[1, Local kernel]:
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$1271
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$2753
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$4136
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+
+In[18]:= 
+NIntegrate::inumr: 
+                 ImPartIntegrand$1271
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$2753
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$4136
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+
+In[19]:= In[19]:= In[19]:= 
+NIntegrate::inumr: 
+                 ImPartIntegrand$1271
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$2753
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$4136
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
+
+Export::h5if: Cannot infer data format for /Dataset1. 
+                                                         -p                   
+           2
+    Expression Abs[NIntegrate[ImPartIntegrand$1271 Exp[-------], {p, 0,
+       Infinity}]]  cannot be exported to HDF5.
+                                                       1000000
+
+Out[19]= ~/nonlocal-qft/mathematica_commutator_data/data100.h5
+
+In[20]:= In[20]:= In[20]:= 
+In[21]:= 
+NIntegrate::inumr: 
+                 ImPartIntegrand$1271
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$2753
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+NIntegrate::inumr: 
+                 ImPartIntegrand$4136
+   The integrand --------------------
+                       p/1000000
+                      E
+     has evaluated to non-numerical values for all sampling points in the
+     region with boundaries {{Infinity, 0.}}.
+
+General::stop: Further output of NIntegrate::inumr
+     will be suppressed during this calculation.
